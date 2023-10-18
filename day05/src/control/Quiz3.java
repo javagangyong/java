@@ -2,6 +2,11 @@ package control;
 
 import java.util.Scanner;
 
+// 이클립스 디버깅하기
+// 1) 중단점을 설정한다 (Ctrl + shift + b) or 줄번호 왼쪽 클릭
+// 2) F11을 눌러서 디버깅을 시작한다 (화면 구성을 바꿀건지 물어보면 yes)
+// 3) F6번을 누를때 마다 한줄씩 실행되고, 우측에서 변수의 값을 확인할 수 있다
+
 public class Quiz3 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
