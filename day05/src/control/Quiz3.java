@@ -8,8 +8,6 @@ public class Quiz3 {
 		String input;
 		int num1;
 		int num2;
-		int year, month, date;
-		String gender;
 		
 		System.out.println("주민등록번호 13자리 입력 (xxxxxx-yyyyyyy)");
 		System.out.print("입력 : ");
@@ -23,10 +21,19 @@ public class Quiz3 {
 		
 		// 4자리의 출생연도, 2자리의 출생월, 2자리의 출생일
 		// 그리고 성별은 문자열로 준비하여 모두 출력하세요
-		date = num1 % 100;
-		num1 = num1 / 100;
-		year = num1 / 100;
-		month = num1 % 100;
+		int year, month, date;
+		String gender;
+		
+		// 0의 개수만큼 오른쪽 숫자를 가져온다		// num1		year	month		date
+											// 930516
+		date = num1 % 100;					// 930516	?		?			16
+		
+		num1 = num1 / 100;					// 9305		?		?			16
+		
+		year = num1 / 100;					// 9305		93		?			16
+		
+		month = num1 % 100;					// 9305		93		5			16
+		// genderNumber = num2 / 1000000;
 		
 		
 		switch(num2 / 1000000) {
@@ -40,6 +47,27 @@ public class Quiz3 {
 						gender = "여성";
 		}
 		
+		// switch(genderNumber) {
+//		case 1: case 2:
+//			year += 1900;
+//			break;
+//		case 3: case 4:
+//			year += 2000;
+//			break;
+//		}
+		
+		// switch(genderNumber) {
+//		case 1: case 3:
+//			gender = "남성";
+//			break;
+//		case 2: case 4:
+//			gender = "남성";
+//			break;
+//		default:
+//			gender = "";
+//		}
+		
+		System.out.printf("%4d-%02d-%02d (%s)\n", year, month, date, gender);
 		System.out.printf("%d년 %d월 %d일\n", year, month, date);
 		System.out.printf("%s입니다.", gender);
 		
