@@ -1,0 +1,36 @@
+자바 컴파일러 버전과 자바실행환경주소 변경
+ - Preferences > Java > compiler 11버전으로 바꾸고
+			Installed JREs > Edit > JAVA_HOME 과 같은 주소로
+			(C:\Program Files\Java\jdk-11)
+
+naming할때 클래스만 첫번째 대문자로
+
+main함수를 제일 먼저 시작한다
+
+자바
+변수	자료형
+cpu는 게임엔진 명령내리고 계산하고
+RAM 은 게임 내의 배치
+HDD 는 불러오기 저장하기
+데이터 배치(준비) > 연산(계산) > 결과 확인 > 화면 출력/파일저장
+IT	Information Technology
+변수는 메모리 공간 	데이터값을 바꿀수있고 담을 수 있다. 자료형 변수 = 값;
+		데이터를 어디다가 저장할거냐~
+
+데이터의 단위 byte
+byte - 데이터의 크기 단위
+
+bit	Binary Digit 앞 bi 뒤 t 붙여서 bit
+8bit > 1byte		2^10 = 1024
+1024byte > 1kb
+1024kb > 1mb
+	1Gb
+	1Tb
+
+문자열은 기본자료형이 아니다. 기본은 계산이기때문에 숫자만나타냄.
+
+기본자료형 특징 첫글자가 소문자이다
+참조자료형은 첫글자가 대문자
+
+객체는 기능 + 값
+primitive type을 제외하곤 다 객체형태기 때문에 다양한 기능이 있다
