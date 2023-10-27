@@ -1,5 +1,7 @@
 package loop;
 
+import java.util.Arrays;
+
 public class Ex02 {
 	public static void main(String[] args) {
 		// 1) 횟수로 반복하는 경우

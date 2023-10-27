@@ -21,6 +21,7 @@ public class Ex06 {
 		System.out.println();
 		
 		System.out.println("arr : " + Arrays.toString(arr));
+		
 		// 배열의 i번째 글자 중에서, 짝수번째 글자가 알파벳 소문자이면 대문자로 바꾸기
 		
 		for(int i = 0; i < arr.length; i++) {

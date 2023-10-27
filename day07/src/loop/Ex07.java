@@ -8,6 +8,7 @@ public class Ex07 {
 		for(int i = 0; i < 5; i++) {
 			s1 += i;
 		}
+		System.out.println(s1);
 		
 		for(char ch = 'A'; ch <= 'E'; ch++) {
 			s1 += ch;
