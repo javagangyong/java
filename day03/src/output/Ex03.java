@@ -65,9 +65,9 @@ public class Ex03 {
 		System.out.printf("%c (%d)\n", '가', (int)'가');
 		System.out.printf("%c (%d)\n", '힣', (int)'힣');
 		
-		for(char ch = 44032; ch <= 55203; ch++) {
-			System.out.printf("%c (%d)\n", ch, (int)ch);	
-		}
+//		for(char ch = 44032; ch <= 55203; ch++) {
+//			System.out.printf("%c (%d)\n", ch, (int)ch);	
+//		}
 		
 		char ch = '아';
 		System.out.printf("%c (%d)\n", ch, (int)ch);
