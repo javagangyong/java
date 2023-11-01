@@ -4,7 +4,6 @@ public class Ex07 {
 	public static void main(String[] args) {
 		// 문자열을 char배열로 변환후 선택정렬을 수행하고
 		// 다시 문자열로 바꿔서 출력하기
-		
 		String str = "qwertyuiopasdfghjklzxcvbnm";
 		char[] arr = str.toCharArray();
 		
