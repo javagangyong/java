@@ -29,11 +29,12 @@ class Handler5 {
 	}
 	// 전체 내용을 출력하는 함수
 	public void showList() {
-		for(int i = 0; i < arr.length; i++) {
-			if(arr[i] != null) {
-				System.out.printf("%s : %d살 \n", arr[i].getName(), arr[i].getAge());
-			}
-		}
+		System.out.printf("%s : %d살 \n", arr[0].getName(), arr[0].getAge());
+//		for(int i = 0; i < arr.length; i++) {
+//			if(arr[i] != null) {
+//				System.out.printf("%s : %d살 \n", arr[i].getName(), arr[i].getAge());
+//			}
+//		}
 	}
 }
 
