@@ -36,6 +36,7 @@ public class Main {
 				break;
 				
 			case 2 :
+				handler.sortByName();
 				handler.showList();
 				break;
 				
