@@ -18,7 +18,7 @@ public class Ex01 {
 		Scanner sc = new Scanner(System.in);
 		int num;
 		
-		System.out.printf("정수 입력 : ");
+		System.out.print("정수 입력 : ");
 		
 //		num = sc.nextInt();
 //		System.out.println("num : " + num);
@@ -26,19 +26,19 @@ public class Ex01 {
 		String tmp = sc.nextLine();
 		if(isDigit(tmp)) {
 			num = Integer.parseInt(tmp);
+			System.out.println("num : " + num);
 		}
 		else {
 			num = -1;
 			System.out.println("정수가 아닙니다");
 		}
 		
-		
 		sc.close();
 		System.out.println("프로그램 종료");
 	}
 	
 	static boolean isDigit(String str) {	// 문자열의 모든 글자가 0에서 9사이의 글자로 구성되었는가
-		boolean flag = false;
+		boolean flag = true;
 		for(int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
 			if(ch < '0' || '9' < ch) {
@@ -49,3 +49,8 @@ public class Ex01 {
 		return flag;
 	}
 }
+
+
+
+
+
